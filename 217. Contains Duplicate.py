@@ -1,11 +1,11 @@
 class Solution(object):
     def containsDuplicate(self, nums):
         seen = set()  # Hash set: For storing the unique elements
-        for i in range(0, len(nums)):
-            if nums[i] in seen:
+        for num in nums:
+            if num in seen:
                 return True
             else:
-                seen.add(nums[i])
+                seen.add(num)
         return False
 
 
