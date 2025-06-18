@@ -31,6 +31,8 @@ class Solution(object):
         return list(res.values())  # convert from collection values to list
 
 
+# Time: O(M*N)
+# Space: O(N*K)
 solution = Solution()
 
 # Test Case 1
